@@ -1,0 +1,84 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cursive', sans-serif;
+    scroll-behavior: smooth;
+    background: #fce9d1; /* Warm coffee-toned background */
+}
+
+/* Navigation Menu */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 15px 30px;
+    transition: background 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+nav.scrolled {
+    background: #6f4e37; /* Coffee brown when scrolled */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcc00; /* Golden coffee glow on hover */
+}
+
+/* Hero Section */
+header {
+    height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?coffee,cafe') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+/* Section Styles */
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#about {
+    background: #f5d5a4; /* Light coffee shade */
+}
+
+#menu {
+    background: #e6be89; /* Caramel tone */
+}
+
+#contact {
+    background: #d9a678; /* Deep latte tone */
+}
